@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "defaultSeverity": "error",
+  "rules": {
+    "property-no-unknown": null,
+    "value-list-comma-newline-after": "always-multi-line",
+    "declaration-colon-newline-after": "always-multi-line",
+    "font-family-name-quotes": "always-where-recommended"
+  },
+  "ignoreFiles": ["node_modules/**", "dist/**"]
+}
