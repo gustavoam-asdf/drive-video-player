@@ -1,6 +1,6 @@
 {
-  "name": "project-name",
-  "version": "0.0.0",
+  "name": "drive-video-player",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
@@ -26,8 +26,13 @@
     "vite": "^2.7.2"
   },
   "main": "src/main.jsx",
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Google Drive",
+    "video player",
+    "react",
+    "vite"
+  ],
+  "author": "Gustavo A. <gustavo.atencio@outlook.com>",
   "license": "MIT",
-  "description": ""
+  "description": "Video player for your files in Google Drive"
 }
