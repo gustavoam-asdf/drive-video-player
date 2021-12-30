@@ -18,5 +18,9 @@
   ],
   "files.associations": {
     "*.env*": "env"
-  }
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.customData": [".vscode/cssCustomData.json"]
 }

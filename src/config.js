@@ -1,7 +1,6 @@
-export const VITE_DRIVE_CLIENT_ID = import.meta.env.VITE_DRIVE_CLIENT_ID
-export const VITE_DRIVE_CLIENT_SECRET = import.meta.env.VITE_CLIENT_SECRET
+export const { VITE_GDRIVE_CID, VITE_GDRIVE_CSECRET } = import.meta.env
 
 export default {
-  VITE_DRIVE_CLIENT_SECRET,
-  VITE_DRIVE_CLIENT_ID
+  VITE_GDRIVE_CID,
+  VITE_GDRIVE_CSECRET
 }
